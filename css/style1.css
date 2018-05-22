@@ -92,16 +92,19 @@ section {
 
 .hero-image {
     /* The image used */
-    background-image: url("../img/home_eddie.jpg");
+    background-image: url("../img/home_eddie2.jpg");
 
     /* Set a specific height */
-    height: 150%;
+    height: 50%;
+    padding-bottom: 37.5%; 
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+
 }
 
 /* Place text in the middle of the image */
@@ -115,7 +118,8 @@ section {
     color: white;
 }
 
-header {
+
+header_ajg {
     /* position: relative; */
     width: 100%;
     /* padding-top: 500px; */
@@ -130,7 +134,7 @@ header {
     -o-background-size: cover;
 }
 
-header .header-content {
+header_ajg .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
