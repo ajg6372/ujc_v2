@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2004-10-12T22:40:06.104788Z"
+   url="svn+ssh://host95.ipowerweb.com/usr/local/jail/subversion/vDeck/trunk/vDeck/etc/skel/.panel/web/images"
+   last-author="root"
+   kind="dir"
+   uuid="15eedcb2-47e6-0310-8cd2-fec5347175b4"
+   revision="168"/>
+<entry
+   committed-rev="1"
+   name=".empty"
+   text-time="2005-01-13T21:50:22.000000Z"
+   committed-date="2004-10-12T22:40:06.104788Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="root"
+   kind="file"
+   prop-time="2005-01-13T21:50:22.000000Z"/>
+</wc-entries>
