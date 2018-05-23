@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -23,9 +23,9 @@ a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 .cd-schedule {
@@ -213,7 +213,7 @@ Main Components
     margin-bottom: 0;
   }
   .cd-schedule .events .events-group > ul {
-    height: 950px;
+    height: 600px; /* ajg - was 950px */
     /* reset style */
     display: block;
     overflow: visible;
@@ -372,7 +372,7 @@ Main Components
   padding: .6em 5%;
 }
 
-.cd-schedule .event-modal .body {
+.cd-schedule .event-modal .abody {
   position: relative;
   width: 100%;
   /* 70px is the .header height */
@@ -393,7 +393,7 @@ Main Components
   padding: 1.4em 5%;
 }
 
-.cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
+.cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .abody-bg {
   /* these are the morphing backgrounds - visible on desktop only */
   position: absolute;
   top: 0;
@@ -402,7 +402,7 @@ Main Components
   width: 100%;
 }
 
-.cd-schedule .event-modal .body-bg {
+.cd-schedule .event-modal .abody-bg {
   z-index: 1;
   background: white;
   -webkit-transform-origin: top left;
@@ -466,7 +466,7 @@ Main Components
   transition: none;
 }
 
-.cd-schedule .event-modal.no-transition .header-bg, .cd-schedule .event-modal.no-transition .body-bg {
+.cd-schedule .event-modal.no-transition .header-bg, .cd-schedule .event-modal.no-transition .abody-bg {
   -webkit-transition: none;
   transition: none;
 }
@@ -507,7 +507,7 @@ Main Components
     height: 100%;
     width: auto;
   }
-  .cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
+  .cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .abody-bg {
     /* Force Hardware acceleration */
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
@@ -523,7 +523,7 @@ Main Components
     -webkit-transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
             transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
   }
-  .cd-schedule .event-modal .body-bg {
+  .cd-schedule .event-modal .abody-bg {
     opacity: 0;
     -webkit-transform: none;
         -ms-transform: none;
@@ -574,7 +574,7 @@ Main Components
     -webkit-transition: opacity .2s;
     transition: opacity .2s;
   }
-  .cd-schedule.modal-is-open .body-bg {
+  .cd-schedule.modal-is-open .abody-bg {
     opacity: 1;
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
