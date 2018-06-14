@@ -92,12 +92,12 @@ section {
 
 .hero-image {
     /* The image used */
-    background-image: url("../img/home_eddie2.jpg");
-
+    /* background-image: url("../img/home_eddie2.jpg"); */
+    background-image: url("../img/judoall.png");
     /* Set a specific height */
     top: 10%;
     height: 50%;
-    padding-bottom: 37.5%;
+    padding-bottom: 45%; /*37.5*/
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
